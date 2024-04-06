@@ -1,10 +1,22 @@
 <template>
     <div class="flex justify-center mb-6">
-        <div class="w-full lg:w-[900px] rounded-full shadow-slate-500 border border-gray-500 shadow h-[70px] flex justify-between items-center px-3">
-            <div class="flex">
-                <div class="w-[30%] rounded-full px-4 py-2">
+        <div class="w-full lg:w-[1000px] rounded-full shadow-slate-500 border border-gray-500 shadow h-[70px] flex justify-between items-center pr-3">
+            <div class="flex w-[90%] py-1 h-full">
+                <div class="w-[25%] hover:rounded-full hover:bg-gray-200 py-2 border-r border-gray-400 pl-3">
                     <h3 class="">Where</h3>
-                    <input type="text" class="" placeholder="Search destinations"/>
+                    <input type="text" class="focus:outline-none hover:bg-gray-200" placeholder="Search destinations"/>
+                </div>
+                <div class="w-[25%] hover:rounded-full hover:bg-gray-200 py-2 border-r border-gray-400 pl-3">
+                    <h3 class="">Check in</h3>
+                    <input type="text" class="focus:outline-none" placeholder="Add dates"/>
+                </div>
+                <div class="w-[25%] hover:rounded-full hover:bg-gray-200 py-2 border-r border-gray-400 pl-3">
+                    <h3 class="">Check out</h3>
+                    <input type="text" class="focus:outline-none" placeholder="Add dates"/>
+                </div>
+                <div class="w-[25%] hover:rounded-full hover:bg-gray-200 py-2 border-r border-gray-400 pl-3">
+                    <h3 class="">Who</h3>
+                    <input type="text" class="focus:outline-none" placeholder="Add guests"/>
                 </div>
             </div>
             <div class="rounded-[50%] bg-red-400 h-[50px] w-[50px] flex items-center justify-center cursor-pointer">

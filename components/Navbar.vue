@@ -20,13 +20,13 @@ const isOpen = ref(false);
         <div class="flex space-x-4">
           <!-- primary nav -->
           <div class="hidden md:flex items-center space-x-1">
-            <a href="#" class="px-3 py-1 hover:bg-gray-300 rounded-full text-gray-700 hover:text-gray-900">
+            <a href="#" class="px-3 py-1 hover:bg-gray-300 rounded-full text-gray-700 hover:text-gray-900 hover:font-bold">
                 <h3 class="">Stays</h3>
             </a>
-            <a href="#" class="px-3 text-gray-700 hover:text-gray-900"
+            <a href="#" class="px-3 py-1 hover:bg-gray-300 rounded-full text-gray-700 hover:text-gray-900 hover:font-bold"
               >Experiences</a
             >
-            <a href="#" class="px-3 text-gray-700 hover:text-gray-900"
+            <a href="#" class="px-3 py-1 hover:bg-gray-300 rounded-full text-gray-700 hover:text-gray-900 hover:font-bold"
               >Online Experiences</a
             >
           </div>
