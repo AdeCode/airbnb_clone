@@ -3,6 +3,7 @@
         <Navbar/>
         <SearchBar/>
         <!-- <NuxtLink to="/blog/">Read the blog!</NuxtLink> -->
+        <ServiceMenu/>
         <Products/>
     </div>
 </template>

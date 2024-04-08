@@ -33,7 +33,7 @@ const isOpen = ref(false);
         </div>
         <!-- secondary nav -->
         <div class="hidden md:flex items-center gap-4">
-          <a href="#" class="px-3 text-gray-700 hover:text-gray-900 mr-3"
+          <a href="#" class="px-3 text-black hover:text-gray-900 mr-3 font-semibold"
             >Airbnb your home</a
           >
           <i class="fas fa-globe"></i>

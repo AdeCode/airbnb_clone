@@ -13,7 +13,7 @@
                     </span>
                 </div>
                 <h3 class="">{{ product.description }}</h3>
-                <h3 class="">{{ product.price }}</h3>
+                <h3 class="font-semibold">${{ product.price }}</h3>
             </div>
         </div>
         <template #fallback>
